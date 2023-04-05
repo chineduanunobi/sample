@@ -1,3 +1,5 @@
 print("hello world")
-myName = input("what is your name")
+print("what is your name")
+myName = "Jenkins user"
 print("Hello " + myName + " , happy to have you here with us.")
+
