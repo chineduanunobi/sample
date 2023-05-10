@@ -1,8 +1,6 @@
 pipeline {
     agent any
-     triggers {
-        pollSCM '*/5 * * * *'
-    }
+
     stages {
         stage('Build') {
             steps {
@@ -15,7 +13,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo "Testing.."
-                sh '''
+                sh 'pytest'
                 echo "doing test stuff.."
                 '''
             }
