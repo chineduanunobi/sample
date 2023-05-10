@@ -15,7 +15,6 @@ pipeline {
                 echo "Testing.."
                 sh 'pytest'
                 echo "doing test stuff.."
-                '''
             }
         }
         stage('Deliver') {
