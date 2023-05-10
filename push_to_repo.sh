@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set the repository URL and branch name
-repo_url="https://github.com/chineduanunobi/sample.git"
+repo_url="git@github.com:chineduanunobi/sample.git"
 branch="master"
 
 # Set the commit message
